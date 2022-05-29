@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{index.html}
+= Dongjie Yu
+
+~~~
+{}{img_left}{https://s1.328888.xyz/2022/05/29/t3mPt.png}{Dongjie's photo}{240}{320}{}
+Dongjie Yu
+
+\n
+
+Master student
+
+[http://www.idlab-tsinghua.com/thulab/labweb/index.html Intelligent Driving Lab]
+
+[http://www.svm.tsinghua.edu.cn/ School of Vehicle and Mobility]
+
+[https://www.tsinghua.edu.cn/en/index.htm Tsinghua University]
+
+LSK Building A639, Tsinghua University, Beijing, China 100084
+
+Email: ydj20@mails.tsinghua.edu.cn
+
+\n
+
+[https://orcid.org/0000-0002-3616-5400 ORCID] \M [https://scholar.google.com/citations?user=vXW4Pe0AAAAJ&hl=zh-CN Google Scholar] \M [https://github.com/ManUtdMoon Github]
+~~~
+
+== Brief Introduction
+
+I am a Master student in Machenical Engineering at the School of Vehicle and Mobility, Tsinghua University, advised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Eben Li].
+I received the B.S. degree in Vehicle Engineering at the School of Vehicle and Mobility from Tsinghua University, Beijing, China, in 2020.
+
+I am interested in reinforcement learning (RL) combined with optimal control, especially safe RL (where certain state constraints are imposed on the agent), and their applications to autonomous driving.
+
+== News
+- 05/2022: Our paper [https://arxiv.org/abs/2205.07536 Reachability Constrained Reinforcement Learning] was accepted for short presentation at ICML 2022. Note that the camera-ready version and codes are still in progress and will come out soon.
