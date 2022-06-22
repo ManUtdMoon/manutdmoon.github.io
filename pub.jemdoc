@@ -1,46 +1,19 @@
-# jemdoc: menu{MENU}{mathjax.html}, nofooter
-== MathJax Example
+# jemdoc: menu{MENU}{pub.html}, nofooter
+== Publications
 
-In this modified version of +jemdoc+, a LaTeX equation block can be typed in as
-\(
-\nabla \cdot \mathbf{D} = \rho_f\\
-\nabla \cdot \mathbf{B} = 0,\\
-\nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}\\
-\nabla \times \mathbf{H} = \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
-\)
+\* means equal contributions.
 
-You can also align equations using LaTeX's +aligned+ block:
-\(
-\begin{aligned}
-\nabla \cdot \mathbf{D} &= \rho_f\\
-\nabla \cdot \mathbf{B} &= 0\\
-\nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\\
-\nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
-\end{aligned}
-\)
+# Like *bold* and /italic/, _underscore_ can be used for emphasis in this modified version of +jemdoc+.  Useful for highlighting different parts of a bibliography item as:
 
-To number the equation block, wrap the equations with LaTeX's +equation+ block:
-\(
-\begin{equation}
-\begin{aligned}
-\nabla \cdot \mathbf{D} &= \rho_f\\
-\nabla \cdot \mathbf{B} &= 0\\
-\nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\\
-\nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
-\end{aligned}
-\end{equation}
-\)
+=== Preprints
+. \[*ICML'22*\] _Dongjie Yu\*_, Haitong Ma\*, Shengbo Eben Li and Jianyu Chen. "Reachability Constrained Reinforcement Learning". /International Conference on Machine Learning/ (2022).
 
-Instead, you can use LaTeX's +align+ (not +aligned+) block to number the individual equations:
-\(
-\begin{align}
-\nabla \cdot \mathbf{D} &= \rho_f\label{eq:D}\\
-\nabla \cdot \mathbf{B} &= 0\label{eq:B}\\
-\nabla \times \mathbf{E} &= -\frac{\partial\mathbf{B}}{\partial t}\label{eq:E}\\
-\nabla \times \mathbf{H} &= \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}\label{eq:H}
-\end{align}
-\)
+: {} We characterize feasible sets (persistently safe states) with Hamilton-Jacobi reachability analysis in constrained RL. The algorithm reachs a zero-violation policy with competitive performance.
 
-You can also type inline equations as $A x = b$.  Referencing equations is done as Eqs.~$\eqref{eq:E}$ and $\eqref{eq:H}$.
+=== Journal papers
+. _First Author_, Second Author, and *Corresponding Author*, "Amazing Paper," /High-impact Journal/, vol.~1, pp.~1--10 (2014).
+
+=== Conference papers
+. _First Author_, Second Author, and *Corresponding Author*, "Amazing Paper," /High-impact Journal/, vol.~1, pp.~1--10 (2014).
 
 

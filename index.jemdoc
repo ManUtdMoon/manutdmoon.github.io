@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{index.html}
-= Dongjie Yu
+= Dongjie Yu {{<span lang="zh-Hans">余冬杰</span>}}
 
 ~~~
 {}{img_left}{https://s1.328888.xyz/2022/05/29/t3mPt.png}{Dongjie's photo}{240}{320}{}
@@ -26,10 +26,11 @@ Email: ydj20@mails.tsinghua.edu.cn
 
 == Brief Introduction
 
-I am a Master student in Machenical Engineering at the School of Vehicle and Mobility, Tsinghua University, advised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Eben Li].
+I am a Master student in Mechanical Engineering at the School of Vehicle and Mobility, Tsinghua University, advised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Eben Li].
+I am also co-advised by [https://www.jianyuchen.net/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at Institute of Interdisciplinary Information Sciences, Tsinghua University.
 I received the B.S. degree in Vehicle Engineering at the School of Vehicle and Mobility from Tsinghua University, Beijing, China, in 2020.
 
-I am interested in reinforcement learning (RL) combined with optimal control, especially safe RL (where certain state constraints are imposed on the agent), and their applications to autonomous driving.
+I am interested in reinforcement learning (RL) combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the learning process), and their applications to autonomous driving and robotics.
 
 == News
-- 05/2022: Our paper [https://arxiv.org/abs/2205.07536 Reachability Constrained Reinforcement Learning] was accepted for short presentation at ICML 2022. Note that the camera-ready version and codes are still in progress and will come out soon.
+- 05/2022: Our paper [https://arxiv.org/abs/2205.07536 Reachability Constrained Reinforcement Learning] was accepted for short presentation at ICML 2022. Thank all co-authors!
