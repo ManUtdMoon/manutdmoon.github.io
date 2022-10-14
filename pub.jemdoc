@@ -5,15 +5,16 @@
 
 # Like *bold* and /italic/, _underscore_ can be used for emphasis in this modified version of +jemdoc+.  Useful for highlighting different parts of a bibliography item as:
 
-=== Preprints
-. \[*ICML'22*\] _Dongjie Yu\*_, Haitong Ma\*, Shengbo Eben Li and Jianyu Chen. "Reachability Constrained Reinforcement Learning". /International Conference on Machine Learning/ (2022).
+=== Conference papers
+. \[*ICML'22*\] _Dongjie Yu\*_, Haitong Ma\*, Shengbo Eben Li and Jianyu Chen. "Reachability Constrained Reinforcement Learning". /Proceedings of the 39th International Conference on Machine Learning/, PMLR 162:25636-25655, 2022.
 
 : {} We characterize feasible sets (persistently safe states) with Hamilton-Jacobi reachability analysis in constrained RL. The algorithm reachs a zero-violation policy with competitive performance.
+: {} [https://proceedings.mlr.press/v162/yu22d.html \[Paper\]] [https://github.com/mahaitongdae/Reachability_Constrained_RL \[Code\_learning\]] [https://github.com/ManUtdMoon/safe-control-gym \[Code\_env\]]
 
 === Journal papers
-. _First Author_, Second Author, and *Corresponding Author*, "Amazing Paper," /High-impact Journal/, vol.~1, pp.~1--10 (2014).
+. TBD.
 
-=== Conference papers
-. _First Author_, Second Author, and *Corresponding Author*, "Amazing Paper," /High-impact Journal/, vol.~1, pp.~1--10 (2014).
+=== Preprints
+. TBD.
 
 
