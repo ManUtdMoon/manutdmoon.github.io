@@ -7,17 +7,17 @@ Dongjie Yu
 
 \n
 
-Master student
+PhD student
 
-[http://www.idlab-tsinghua.com/thulab/labweb/index.html Intelligent Driving Lab]
+[https://www.cs.hku.hk/people/academic-staff/jpan Pan's Lab]
 
-[http://www.svm.tsinghua.edu.cn/ School of Vehicle and Mobility]
+[https://www.cs.hku.hk/ Department of Computer Science]
 
-[https://www.tsinghua.edu.cn/en/index.htm Tsinghua University]
+[https://hku.hk The University of Hong Kong]
 
-LSK Building A639, Tsinghua University, Beijing, China 100084
+Mail box 132, Floor 3, Chow Yei Ching Bulding, The University of Hong Kong, Pokfulam Road, Central and Western District, Hong Kong 999077
 
-Email: ydj20@mails.tsinghua.edu.cn
+Email: djyu@connect.hku.hk
 
 \n
 
@@ -26,11 +26,13 @@ Email: ydj20@mails.tsinghua.edu.cn
 
 == Brief Introduction
 
-I am a Master student in Mechanical Engineering at the School of Vehicle and Mobility, Tsinghua University, advised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Eben Li].
-I am also co-advised by [https://www.jianyuchen.net/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at Institute of Interdisciplinary Information Sciences, Tsinghua University.
-I received the B.S. degree in Vehicle Engineering at the School of Vehicle and Mobility from Tsinghua University, Beijing, China, in 2020.
+I am a PhD student in Computer Science at the Department of Computer Science, The University of Hong Kong, fortunately advised by [https://www.cs.hku.hk/people/academic-staff/jpan Prof. Jia Pan].
 
-I am interested in reinforcement learning (RL) combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the learning process), and their applications to autonomous driving and robotics.
+Before that, I received the M.S. and B.S. degree in Mechanical Engineering at the School of Vehicle and Mobility from Tsinghua University, Beijing, China, in 2023 and 2020, respectively.
+At THU, I was supervised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Li] who leads [http://www.idlab-tsinghua.com/thulab/labweb/index.html iDLab], working on reinforcement learning applied in autonomous driving. I also collabrated with [http://people.iiis.tsinghua.edu.cn/~jychen/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at Institute of Interdisciplinary Information Sciences, Tsinghua University.
+
+During my time as a Master student, I was interested in reinforcement learning (RL) combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the learning process), and their applications to autonomous driving and robotics. Now I am still looking for topics for my PhD time.
 
 == News
+- 07/2023: Our paper [https://arxiv.org/abs/2210.07553 Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate] was accepted by IEEE Transactions on Automation Science and Engineering. Congrats to all co-authors! Formal version for publication is still under production by the editor.
 - 05/2022: Our paper [https://arxiv.org/abs/2205.07536 Reachability Constrained Reinforcement Learning] was accepted for short presentation at ICML 2022. Thank all co-authors!
