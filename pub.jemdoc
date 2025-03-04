@@ -6,18 +6,20 @@
 # Like *bold* and /italic/, _underscore_ can be used for emphasis in this modified version of +jemdoc+.  Useful for highlighting different parts of a bibliography item as:
 
 === Conference papers
-. \[*ICML'22*\] _Dongjie Yu\*_, Haitong Ma\*, Shengbo Eben Li and Jianyu Chen. "Reachability Constrained Reinforcement Learning". /Proceedings of the 39th International Conference on Machine Learning/, PMLR 162:25636-25655, 2022.
-
-: {} tldr: We characterize feasible sets (persistently safe states) with Hamilton-Jacobi reachability analysis in constrained RL. The algorithm reachs a zero-violation policy with competitive performance.
-: {} [https://proceedings.mlr.press/v162/yu22d.html \[Paper\]] [https://github.com/mahaitongdae/Reachability_Constrained_RL \[Code\_learning\]] [https://github.com/ManUtdMoon/safe-control-gym \[Code\_env\]]
+. \[*WAFR'24*\] _Dongjie Yu\*_, Hang Xu\*, Yizhou Chen, Yi Ren and Jia Pan. "BiKC: Keypose-Conditioned Consistency Policy for Bimanual Robotic Manipulatio". In /The 16th International Workshop on the Algorithmic Foundations of Robotics/, 2024.
+.. tldr: We present Bimanual Keypose-Conditioned Consistency Policy (BiKC) to enhance the operational reliability and eﬃciency by overcoming per-stage error and per-step latency accumulated across multiple stages.
+.. [https://arxiv.org/abs/2406.10093 \[Paper\]] [https://github.com/manUtdMoon/bikc \[Code\]]
+#
+. \[*ICML'22*\] _Dongjie Yu\*_, Haitong Ma\*, Shengbo Eben Li and Jianyu Chen. "Reachability Constrained Reinforcement Learning". In /Proceedings of the 39th International Conference on Machine Learning/, PMLR 162:25636-25655, 2022.
+.. tldr: We characterize feasible sets (persistently safe states) with Hamilton-Jacobi reachability analysis in constrained RL. The algorithm reachs a zero-violation policy with competitive performance.
+.. [https://proceedings.mlr.press/v162/yu22d.html \[Paper\]] [https://github.com/mahaitongdae/Reachability_Constrained_RL \[Code\_learning\]] [https://github.com/ManUtdMoon/safe-control-gym \[Code\_env\]]
 
 === Journal papers
 . \[*T-ASE*\] _Dongjie Yu\*_, Wenjun Zou, Yujie Yang, Haitong Ma, Shengbo Eben Li, Yuming Yin, Jianyu Chen and Jingliang Duan. "Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate". /IEEE Transactions on Automation Science and Engineering/, DOI: 10.1109/TASE.2023.3292388, 2023.
+.. tldr: We propose a distributional form of reachability certificate to consider the uncertaity of the system dynamics in safe RL. The algorithm is able to learn a zero-violation policy with competitive performance, significantly reducing violations during exploration.
+.. [https://ieeexplore.ieee.org/document/10329343 \[Paper\]] [https://github.com/ManUtdMoon/Distributional-Reachability-Policy-Optimization \[Code\]]
 
-: {} tldr: We propose a distributional form of reachability certificate to consider the uncertaity of the system dynamics in safe RL. The algorithm is able to learn a zero-violation policy with competitive performance, significantly reducing violations during exploration.
-: {} [https://arxiv.org/abs/2210.07553 \[Preprint\]] [https://github.com/ManUtdMoon/Distributional-Reachability-Policy-Optimization \[Code\]]
-
-=== Preprints
-. TBD.
+# === Preprints
+# . TBD.
 
 
