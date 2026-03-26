@@ -15,11 +15,17 @@
 .. [https://proceedings.mlr.press/v162/yu22d.html \[Paper\]] [https://github.com/mahaitongdae/Reachability_Constrained_RL \[Code\_learning\]] [https://github.com/ManUtdMoon/safe-control-gym \[Code\_env\]]
 
 === Journal papers
-. \[*T-ASE*\] _Dongjie Yu\*_, Wenjun Zou, Yujie Yang, Haitong Ma, Shengbo Eben Li, Yuming Yin, Jianyu Chen and Jingliang Duan. "Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate". /IEEE Transactions on Automation Science and Engineering/, DOI: 10.1109/TASE.2023.3292388, 2023.
+. \[*T-ASE*\] Hang Xu, Yizhou Chen, _Dongjie Yu_, Yi Ren and Jia Pan. "BiKC+: Bimanual Hierarchical Imitation with Keypose-Conditioned Coordination-Aware Consistency Policies". /IEEE Transactions on Automation Science and Engineering/, DOI: 10.1109/TASE.2025.3639130, 2025.
+.. tldr: We use a VLM to autonomously identify contact mode to optionally merge bimanual keyposes, thus enabling coordination-aware bimanual manipulation.
+.. [https://ieeexplore.ieee.org/document/11271705 \[Paper\]] [https://github.com/JoanaHXU/BiKC-plus/ \[Code\]]
+#
+. \[*T-ASE*\] _Dongjie Yu_, Wenjun Zou, Yujie Yang, Haitong Ma, Shengbo Eben Li, Yuming Yin, Jianyu Chen and Jingliang Duan. "Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate". /IEEE Transactions on Automation Science and Engineering/, DOI: 10.1109/TASE.2023.3292388, 2023.
 .. tldr: We propose a distributional form of reachability certificate to consider the uncertaity of the system dynamics in safe RL. The algorithm is able to learn a zero-violation policy with competitive performance, significantly reducing violations during exploration.
 .. [https://ieeexplore.ieee.org/document/10329343 \[Paper\]] [https://github.com/ManUtdMoon/Distributional-Reachability-Policy-Optimization \[Code\]]
 
-# === Preprints
-# . TBD.
+=== Preprints
+. Kun Lei\*, Huanyu Li\*, _Dongjie Yu\*_, Zhenyu Wei, Lingxiao Guo, Zhennan Jiang, Ziyu Wang, Shiyu Liang and Huazhe Xu. "RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning", arXiv preprint 2510.14830, 2025.
+.. tldr: We introduce RL-100, a real-world RL system consisting of imitation, iterative offline and online RL. RL-100 achieves 100% success rate on eight diverse real-world tasks, demonstrating the potential of real-world RL for deployable robotic manipulation.
+.. [https://arxiv.org/abs/2510.14830 \[Paper\]]
 
 
