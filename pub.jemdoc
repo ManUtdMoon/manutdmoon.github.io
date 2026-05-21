@@ -24,8 +24,11 @@
 .. [https://ieeexplore.ieee.org/document/10329343 \[Paper\]] [https://github.com/ManUtdMoon/Distributional-Reachability-Policy-Optimization \[Code\]]
 
 === Preprints
+. _Dongjie Yu\*_, Kun Lei\*, Zhennan Jiang, Jia Pan and Huazhe Xu. "Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning", arXiv preprint 2605.19919, 2026.
+.. tldr: We propose Z-Perturbation Reinforcement Learning (ZPRL), an RL finetuning framework that steers pretrained robot policies by perturbing bottleneck latents, improving sample efficiency and real-world manipulation performance while producing smoother actions than action residuals.
+.. [https://arxiv.org/abs/2605.19919 \[Paper\]] [https://github.com/manUtdMoon/ZPRL \[Code\]]
+#
 . Kun Lei\*, Huanyu Li\*, _Dongjie Yu\*_, Zhenyu Wei, Lingxiao Guo, Zhennan Jiang, Ziyu Wang, Shiyu Liang and Huazhe Xu. "RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning", arXiv preprint 2510.14830, 2025.
 .. tldr: We introduce RL-100, a real-world RL system consisting of imitation, iterative offline and online RL. RL-100 achieves 100% success rate on eight diverse real-world tasks, demonstrating the potential of real-world RL for deployable robotic manipulation.
 .. [https://arxiv.org/abs/2510.14830 \[Paper\]]
-
 
