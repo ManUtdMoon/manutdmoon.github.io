@@ -15,6 +15,10 @@
 .. [https://proceedings.mlr.press/v162/yu22d.html \[Paper\]] [https://github.com/mahaitongdae/Reachability_Constrained_RL \[Code\_learning\]] [https://github.com/ManUtdMoon/safe-control-gym \[Code\_env\]]
 
 === Journal papers
+. \[*Sci. Robot.*\] Kun Lei\*, Huanyu Li\*, _Dongjie Yu\*_, Zhenyu Wei\*, Lingxiao Guo, Zhennan Jiang, Ziyu Wang, Shiyu Liang and Huazhe Xu. "Performant robotic manipulation with real-world reinforcement learning". /Science Robotics/, 11(116):ead6267, 2026. DOI: 10.1126/scirobotics.aed6267.
+.. tldr: We introduce RL-100, a real-world RL framework that unifies imitation learning and RL for 3D diffusion policies. Across eight real-robot tasks, it achieves stable success over 1,000 trials, human-level efficiency, and reliable deployment.
+.. [https://www.science.org/doi/10.1126/scirobotics.aed6267 \[Paper\]] [https://github.com/Lei-Kun/RL-100 \[Code\]]
+#
 . \[*T-ASE*\] Hang Xu, Yizhou Chen, _Dongjie Yu_, Yi Ren and Jia Pan. "BiKC+: Bimanual Hierarchical Imitation with Keypose-Conditioned Coordination-Aware Consistency Policies". /IEEE Transactions on Automation Science and Engineering/, DOI: 10.1109/TASE.2025.3639130, 2025.
 .. tldr: We use a VLM to autonomously identify contact mode to optionally merge bimanual keyposes, thus enabling coordination-aware bimanual manipulation.
 .. [https://ieeexplore.ieee.org/document/11271705 \[Paper\]] [https://github.com/JoanaHXU/BiKC-plus/ \[Code\]]
@@ -27,8 +31,3 @@
 . _Dongjie Yu\*_, Kun Lei\*, Zhennan Jiang, Jia Pan and Huazhe Xu. "Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning", arXiv preprint 2605.19919, 2026.
 .. tldr: We propose Z-Perturbation Reinforcement Learning (ZPRL), an RL finetuning framework that steers pretrained robot policies by perturbing bottleneck latents, improving sample efficiency and real-world manipulation performance while producing smoother actions than action residuals.
 .. [https://arxiv.org/abs/2605.19919 \[Paper\]] [https://github.com/manUtdMoon/ZPRL \[Code\]]
-#
-. Kun Lei\*, Huanyu Li\*, _Dongjie Yu\*_, Zhenyu Wei, Lingxiao Guo, Zhennan Jiang, Ziyu Wang, Shiyu Liang and Huazhe Xu. "RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning", arXiv preprint 2510.14830, 2025.
-.. tldr: We introduce RL-100, a real-world RL system consisting of imitation, iterative offline and online RL. RL-100 achieves 100% success rate on eight diverse real-world tasks, demonstrating the potential of real-world RL for deployable robotic manipulation.
-.. [https://arxiv.org/abs/2510.14830 \[Paper\]]
-

@@ -32,6 +32,7 @@ I received the M.S. and B.S. degree in Mechanical Engineering at the School of V
 At THU, I was supervised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Li] who leads [http://www.idlab-tsinghua.com/thulab/labweb/index.html iDLab], working on RL for autonomous driving. I also collabrated with [http://people.iiis.tsinghua.edu.cn/~jychen/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at IIIS, THU. During my time as a Master student, I was interested in RL combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the learning process), and their applications to autonomous driving and robotics.
 
 == News
+- 07/2026: Our [https://www.science.org/doi/10.1126/scirobotics.aed6267 RL-100] paper was accepted by Science Robotics. Check the code base [https://github.com/Lei-Kun/RL-100 here].
 - 10/2025: A follow-up work called [https://arxiv.org/abs/2601.12116 BiKC+] was accepted by IEEE T-ASE. Congrats to Dr. Xu and Dr. Chen!
 - 08/2024: Check our WAFR 2024 paper [https://arxiv.org/abs/2406.10093 BiKC: Keypose-Conditioned Consistency Policy for Bimanual Robotic Manipulation], introducing a hierarchical policy for bimanual robotic manipulation. Congrats to all co-authors!
 - 09/2023: Check our paper [https://ieeexplore.ieee.org/document/10329343 Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate] accepted by IEEE Transactions on Automation Science and Engineering. Congrats to all co-authors!
