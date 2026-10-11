@@ -26,10 +26,10 @@ Email: djyu \[at\] connect \[dot\] hku \[dot\] hk
 
 == Brief Introduction
 
-I am a PhD student in Computer Science at CDS @ HKU, fortunately advised by [https://www.cs.hku.hk/people/academic-staff/jpan Prof. Jia Pan]. I am interested in robot learning approaches, especially imitation learning (IL) and reinforcement learning (RL), for manipulation tasks. I was an intern at Xiaomi Robotics in 2025, where I coded a tele-operation system with Vi-Tai tactile sensors. Now I am an intern at Shanghai Qizhi Institute, working on RL post-training for imitation robot policies.
+I am a PhD student in Computer Science at CDS @ HKU, fortunately advised by [https://ai.hku.hk/people/academic-staff/jpan Prof. Jia Pan]. I am interested in robot learning approaches, especially imitation learning (IL) and reinforcement learning (RL), for manipulation tasks. I was an intern at Xiaomi Robotics working on a teleoperation system with ViTai tactile sensors in 2025. I also interned at Shanghai Qizhi Institute till later in 2026, working on RL post-training for imitation robot policies.
 
-I received the M.S. and B.S. degree in Mechanical Engineering at the School of Vehicle and Mobility from Tsinghua University, Beijing, China, in 2023 and 2020, respectively.
-At THU, I was supervised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Li] who leads [http://www.idlab-tsinghua.com/thulab/labweb/index.html iDLab], working on RL for autonomous driving. I also collabrated with [http://people.iiis.tsinghua.edu.cn/~jychen/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at IIIS, THU. During my time as a Master student, I was interested in RL combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the learning process), and their applications to autonomous driving and robotics.
+I received the M.S. and B.S. degree in Mechanical Engineering at the School of Vehicle and Mobility from Tsinghua University in 2023 and 2020, respectively.
+At THU, I was supervised by [https://www.researchgate.net/profile/Shengbo-Li-2 Prof. Shengbo Li]. I also collaborated with [http://people.iiis.tsinghua.edu.cn/~jychen/ Prof. Jianyu Chen], who leads the Intelligent System and Robotics Lab at IIIS. During my time at THU, I was interested in RL combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the training process), and their applications to autonomous driving and robotics.
 
 == News
 - 07/2026: Our [https://www.science.org/doi/10.1126/scirobotics.aed6267 RL-100] paper was accepted by Science Robotics. Check the code base [https://github.com/Lei-Kun/RL-100 here].
