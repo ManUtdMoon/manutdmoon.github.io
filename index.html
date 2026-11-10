@@ -1,92 +1,164 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<!--- <title>Dongjie Yu <span lang="zh-Hans">余冬杰</span></title> --->
-<!-- YOU NEED TO CHANGE THE FOLLOWING LINE WITH YOUR NAME! -->
-<title>Dongjie Yu - HKU</title>
-<!-- MathJax -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-	  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<!-- End MathJax -->
-<meta name="google-site-verification" content="XVEWai_IQg8I-HjBr0M71wsvfCQhvKe7ay7H8kOgjiQ" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dongjie Yu · HKU</title>
+  <meta name="description" content="Dongjie Yu is a PhD student at the University of Hong Kong, working on robot learning, reinforcement learning, and robotic manipulation.">
+  <meta name="google-site-verification" content="XVEWai_IQg8I-HjBr0M71wsvfCQhvKe7ay7H8kOgjiQ">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://manutdmoon.github.io/">
+  <link rel="stylesheet" href="style.css">
+  <!-- Analytics is intentionally disabled. Keep local previews free of tracking. -->
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Dongjie Yu</div>
-<div class="menu-item"><a href="index.html" class="current">About</a></div>
-<div class="menu-item"><a href="pdf/CV_Dongjie-Yu.pdf">CV</a></div>
-<div class="menu-category">Research</div>
-<div class="menu-item"><a href="pub.html">Publications</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>Dongjie Yu <span lang="zh-Hans">余冬杰</span></h1>
-</div>
-<table class="imgtable"><tr><td>
-<img src="./img/ydj_profile.JPG" alt="Dongjie's photo" width="240px" height="320px" />&nbsp;</td>
-<td align="left"><p>Dongjie Yu
-</p>
-<p><br />
-</p>
-<p>PhD student
-</p>
-<p><a href="https://panda-lab-hku.github.io/" target=&ldquo;blank&rdquo;>PANDA Lab</a>
-</p>
-<p><a href="https://www.cs.hku.hk/" target=&ldquo;blank&rdquo;>School of Computing and Data Science (CDS)</a>
-</p>
-<p><a href="https://hku.hk" target=&ldquo;blank&rdquo;>The University of Hong Kong (HKU)</a>
-</p>
-<p>Mail box 132, Floor 3, Chow Yei Ching Bulding, The University of Hong Kong, Pokfulam Road, Central and Western District, Hong Kong 999077
-</p>
-<p>Email: djyu [at] connect [dot] hku [dot] hk
-</p>
-<p><br />
-</p>
-<p><a href="https://orcid.org/0000-0002-3616-5400" target=&ldquo;blank&rdquo;>ORCID</a> &middot; <a href="https://scholar.google.com/citations?user=vXW4Pe0AAAAJ&amp;hl=zh-CN" target=&ldquo;blank&rdquo;>Google Scholar</a> &middot; <a href="https://github.com/ManUtdMoon" target=&ldquo;blank&rdquo;>Github</a>
-</p>
-</td></tr></table>
-<h2>Brief Introduction</h2>
-<p>I am a PhD student in Computer Science at CDS @ HKU, fortunately advised by <a href="https://ai.hku.hk/people/academic-staff/jpan" target=&ldquo;blank&rdquo;>Prof. Jia Pan</a>. I am interested in robot learning approaches, especially imitation learning (IL) and reinforcement learning (RL), for manipulation tasks. I was an intern at Xiaomi Robotics working on a teleoperation system with ViTai tactile sensors in 2025. I also interned at Shanghai Qizhi Institute till later in 2026, working on RL post-training for imitation robot policies.
-</p>
-<p>I received the M.S. and B.S. degree in Mechanical Engineering at the School of Vehicle and Mobility from Tsinghua University in 2023 and 2020, respectively.
-At THU, I was supervised by <a href="https://www.researchgate.net/profile/Shengbo-Li-2" target=&ldquo;blank&rdquo;>Prof. Shengbo Li</a>. I also collaborated with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/" target=&ldquo;blank&rdquo;>Prof. Jianyu Chen</a>, who leads the Intelligent System and Robotics Lab at IIIS. During my time at THU, I was interested in RL combined with optimal control, especially safe RL (where agents should not violate certain state constraints during and/or after the training process), and their applications to autonomous driving and robotics.
-</p>
-<h2>News</h2>
-<ul>
-<li><p>07/2026: Our <a href="https://www.science.org/doi/10.1126/scirobotics.aed6267" target=&ldquo;blank&rdquo;>RL-100</a> paper was accepted by Science Robotics. Check the code base <a href="https://github.com/Lei-Kun/RL-100" target=&ldquo;blank&rdquo;>here</a>.
-</p>
-</li>
-<li><p>10/2025: A follow-up work called <a href="https://arxiv.org/abs/2601.12116" target=&ldquo;blank&rdquo;>BiKC+</a> was accepted by IEEE T-ASE. Congrats to Dr. Xu and Dr. Chen!
-</p>
-</li>
-<li><p>08/2024: Check our WAFR 2024 paper <a href="https://arxiv.org/abs/2406.10093" target=&ldquo;blank&rdquo;>BiKC: Keypose-Conditioned Consistency Policy for Bimanual Robotic Manipulation</a>, introducing a hierarchical policy for bimanual robotic manipulation. Congrats to all co-authors!
-</p>
-</li>
-<li><p>09/2023: Check our paper <a href="https://ieeexplore.ieee.org/document/10329343" target=&ldquo;blank&rdquo;>Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate</a> accepted by IEEE Transactions on Automation Science and Engineering. Congrats to all co-authors!
-</p>
-</li>
-<li><p>05/2022: Our paper <a href="https://arxiv.org/abs/2205.07536" target=&ldquo;blank&rdquo;>Reachability Constrained Reinforcement Learning</a> was accepted for short presentation at ICML 2022. Thank all co-authors!
-</p>
-</li>
-</ul>
-<div id="footer">
-<div id="footer-text">
-Page generated 2026-10-11 22:44:46 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
-</div>
-</div>
-</td>
-</tr>
-</table>
+  <a class="skip-link" href="#research">Skip to research</a>
+  <main>
+    <header class="profile" id="about">
+      <div class="bio">
+        <h1>Dongjie Yu <span class="chinese-name" lang="zh-Hans">余冬杰</span></h1>
+        <p>I am a PhD student at the <a href="https://www.cs.hku.hk/">School of Computing and Data Science</a>, <a href="https://hku.hk">The University of Hong Kong</a>, advised by <a href="https://ai.hku.hk/people/academic-staff/jpan">Prof. Jia Pan</a> in the <a href="https://panda-lab-hku.github.io/">PANDA Lab</a>.</p>
+        <p>My research focuses on <strong>robot learning for manipulation</strong>, especially imitation learning and reinforcement learning. I am interested in improving learned robot policies through RL post-training.</p>
+        <p>I interned at Shanghai Qizhi Institute, working on RL post-training for imitation policies, and at Xiaomi Robotics in 2025, working on teleoperation with ViTai tactile sensors.</p>
+        <p>I received my M.S. (2023) and B.S. (2020) in Mechanical Engineering from Tsinghua University, advised by <a href="https://www.researchgate.net/profile/Shengbo-Li-2">Prof. Shengbo Li</a>. I also collaborated with <a href="http://people.iiis.tsinghua.edu.cn/~jychen/">Prof. Jianyu Chen</a> on safe RL and optimal control.</p>
+        <p>Email: djyu [at] connect [dot] hku [dot] hk</p>
+        <nav class="contact-links" aria-label="Contact and profiles">
+          <a href="mailto:djyu@connect.hku.hk">E-mail</a><span aria-hidden="true">/</span>
+          <a href="pdf/CV_Dongjie-Yu.pdf">CV</a><span aria-hidden="true">/</span>
+          <a href="https://scholar.google.com/citations?user=vXW4Pe0AAAAJ&amp;hl=en">Google Scholar</a><span aria-hidden="true">/</span>
+          <a href="https://github.com/ManUtdMoon">GitHub</a>
+        </nav>
+      </div>
+      <a class="portrait" href="img/ydj_profile.JPG" aria-label="View full portrait of Dongjie Yu">
+        <img src="img/ydj_profile.JPG" alt="Dongjie Yu" width="1800" height="2399" fetchpriority="high">
+      </a>
+    </header>
+
+    <section class="news" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <ul class="news-list">
+        <li><time datetime="2026-11">Nov 2026</time><span>ZPRL was accepted by <strong>IEEE T-RL</strong>! Check out the <a href="https://github.com/manUtdMoon/ZPRL">code</a> and the <a href="https://arxiv.org/abs/2605.19919">updated arXiv paper</a>.</span></li>
+        <li><time datetime="2026-07">Jul 2026</time><span><a href="https://www.science.org/doi/10.1126/scirobotics.aed6267">RL-100</a> was accepted by <strong>Science Robotics</strong>! <a href="https://github.com/Lei-Kun/RL-100">Code</a> is available.</span></li>
+        <li><time datetime="2025-10">Oct 2025</time><span><a href="https://arxiv.org/abs/2601.12116">BiKC+</a> was accepted by <strong>IEEE T-ASE</strong>. Congratulations to Dr. Xu and Dr. Chen!</span></li>
+        <li><time datetime="2024-08">Aug 2024</time><span><a href="https://arxiv.org/abs/2406.10093">BiKC</a>, our work on hierarchical bimanual manipulation, was accepted to <strong>WAFR 2024</strong>.</span></li>
+        <li><time datetime="2023-09">Sep 2023</time><span>Our <a href="https://ieeexplore.ieee.org/document/10329343">uncertainty-aware safe RL paper</a> was accepted by <strong>IEEE T-ASE</strong>.</span></li>
+        <li><time datetime="2022-05">May 2022</time><span><a href="https://arxiv.org/abs/2205.07536">Reachability Constrained Reinforcement Learning</a> was accepted for a short presentation at <strong>ICML 2022</strong>.</span></li>
+      </ul>
+    </section>
+
+    <section id="research" aria-labelledby="research-heading">
+      <div class="section-heading">
+        <h2 id="research-heading">Selected Publications <span class="contribution-note">(* Equal contribution.)</span></h2>
+        <a class="full-list" href="https://scholar.google.com/citations?user=vXW4Pe0AAAAJ&amp;hl=en">Full publication list ↗</a>
+      </div>
+
+      <article class="publication" id="zprl">
+        <a class="paper-image" href="https://arxiv.org/abs/2605.19919" tabindex="-1" aria-hidden="true">
+          <img src="img/research/zprl.png" alt="" width="778" height="376" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://arxiv.org/abs/2605.19919">Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning</a></h3>
+          <p class="authors"><strong>Dongjie Yu*</strong>, Kun Lei*, Zhennan Jiang, Jia Pan, Huazhe Xu</p>
+          <p class="venue"><em>IEEE T-RL</em>, 2026 (accepted, formal version in progress)</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2605.19919">arXiv</a> / <a href="https://github.com/manUtdMoon/ZPRL">code</a></p>
+          <p class="paper-description">ZPRL steers pretrained robot policies by perturbing bottleneck latents, improving sample efficiency while producing smoother actions.</p>
+        </div>
+      </article>
+
+      <article class="publication" id="rl100">
+        <a class="paper-image" href="https://lei-kun.github.io/RL-100/" tabindex="-1" aria-hidden="true">
+          <img src="img/research/rl100.png" alt="" width="1714" height="1454" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://www.science.org/doi/10.1126/scirobotics.aed6267">Performant Robotic Manipulation with Real-World Reinforcement Learning</a></h3>
+          <p class="authors">Kun Lei*, Huanyu Li*, <strong>Dongjie Yu*</strong>, Zhenyu Wei*, Lingxiao Guo, Zhennan Jiang, Ziyu Wang, Shiyu Liang, Huazhe Xu</p>
+          <p class="venue"><em>Science Robotics</em>, 2026</p>
+          <p class="paper-links"><a href="https://lei-kun.github.io/RL-100/">project page</a> / <a href="https://www.science.org/doi/10.1126/scirobotics.aed6267">paper</a> / <a href="https://github.com/Lei-Kun/RL-100">code</a></p>
+          <p class="paper-description">RL-100 unifies imitation learning and real-world RL for 3D diffusion policies, enabling reliable and efficient robotic manipulation.</p>
+        </div>
+      </article>
+
+      <article class="publication" id="bikc-plus">
+        <a class="paper-image" href="https://arxiv.org/abs/2601.12116" tabindex="-1" aria-hidden="true">
+          <img src="img/research/bikc-plus.png" alt="" width="2180" height="1296" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/document/11271705">BiKC+: Bimanual Hierarchical Imitation with Keypose-Conditioned Coordination-Aware Consistency Policies</a></h3>
+          <p class="authors">Hang Xu, Yizhou Chen, <strong>Dongjie Yu</strong>, Yi Ren, Jia Pan</p>
+          <p class="venue"><em>IEEE T-ASE</em>, 2025</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/11271705">paper</a> / <a href="https://arxiv.org/abs/2601.12116">arXiv</a> / <a href="https://github.com/JoanaHXU/BiKC-plus/">code</a></p>
+          <p class="paper-description">Vision-language models identify contact modes to coordinate bimanual keyposes for hierarchical robot manipulation.</p>
+        </div>
+      </article>
+
+      <article class="publication" id="bikc">
+        <a class="paper-image" href="https://arxiv.org/abs/2406.10093" tabindex="-1" aria-hidden="true">
+          <img src="img/research/bikc.png" alt="" width="1256" height="612" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://arxiv.org/abs/2406.10093">BiKC: Keypose-Conditioned Consistency Policy for Bimanual Robotic Manipulation</a></h3>
+          <p class="authors"><strong>Dongjie Yu*</strong>, Hang Xu*, Yizhou Chen, Yi Ren, Jia Pan</p>
+          <p class="venue"><em>WAFR</em>, 2024</p>
+          <p class="paper-links"><a href="https://arxiv.org/abs/2406.10093">paper</a> / <a href="https://github.com/manUtdMoon/bikc">code</a></p>
+          <p class="paper-description">A hierarchical bimanual policy that reduces accumulated errors and inference latency with keyposes and consistency models.</p>
+        </div>
+      </article>
+
+      <article class="publication" id="safe-model-based-rl">
+        <a class="paper-image" href="https://ieeexplore.ieee.org/document/10329343" tabindex="-1" aria-hidden="true">
+          <img src="img/research/drpo.png" alt="" width="1312" height="514" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://ieeexplore.ieee.org/document/10329343">Safe Model-Based Reinforcement Learning with an Uncertainty-Aware Reachability Certificate</a></h3>
+          <p class="authors"><strong>Dongjie Yu</strong>, Wenjun Zou, Yujie Yang, Haitong Ma, Shengbo Eben Li, Yuming Yin, Jianyu Chen, Jingliang Duan</p>
+          <p class="venue"><em>IEEE T-ASE</em>, 2023</p>
+          <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/10329343">paper</a> / <a href="https://github.com/ManUtdMoon/Distributional-Reachability-Policy-Optimization">code</a></p>
+          <p class="paper-description">A distributional reachability certificate accounts for dynamics uncertainty to reduce safety violations during exploration.</p>
+        </div>
+      </article>
+      <article class="publication" id="reachability-constrained-rl">
+        <a class="paper-image" href="https://proceedings.mlr.press/v162/yu22d.html" tabindex="-1" aria-hidden="true">
+          <img src="img/research/rcrl.png" alt="" width="924" height="714" loading="lazy">
+        </a>
+        <div class="paper-info">
+          <h3><a href="https://proceedings.mlr.press/v162/yu22d.html">Reachability Constrained Reinforcement Learning</a></h3>
+          <p class="authors"><strong>Dongjie Yu*</strong>, Haitong Ma*, Shengbo Eben Li, Jianyu Chen</p>
+          <p class="venue"><em>ICML</em>, 2022</p>
+          <p class="paper-links"><a href="https://proceedings.mlr.press/v162/yu22d.html">paper</a> / <a href="https://github.com/mahaitongdae/Reachability_Constrained_RL">code</a> / <a href="https://github.com/ManUtdMoon/safe-control-gym">environments</a></p>
+          <p class="paper-description">Hamilton–Jacobi reachability characterizes persistently safe states for constrained reinforcement learning.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="activities" id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Services</h2>
+      <!-- Source: CV_Dongjie-Yu.pdf, page 2, Service section. -->
+      <p><strong>Reviewer</strong></p>
+      <ul class="activity-list">
+        <li>Journals: T-RO, T-II</li>
+        <li>Conferences: ICRA, IROS</li>
+      </ul>
+      <p><strong>Member, Tech Service Team of the Work-Study Program</strong><br>
+        Tsinghua University, 2020–2023</p>
+      <p class="activity-note">Excellent Team Member of the Month (x3) and of the Semester (x2); Outstanding Individual of the Work-Study Program in 2021 (top 10% in the university).</p>
+    </section>
+
+    <section class="activities" id="teaching" aria-labelledby="teaching-heading">
+      <h2 id="teaching-heading">Teaching</h2>
+      <!-- The CV lists these courses without semesters or teaching dates. -->
+      <p><strong>Teaching Assistant</strong>, The University of Hong Kong</p>
+      <ul class="activity-list">
+        <li>COMP7506A: Smart Phone Apps Development</li>
+        <li>COMP7308: Introduction to Unmanned Systems</li>
+        <li>COMP3270: Introduction to Artificial Intelligence</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Website template inspired by <a href="https://jonbarron.info/">Jon Barron</a> and <a href="https://warshallrho.github.io/">Ruihai Wu</a>.</p>
+      <!-- Update this date and sitemap.xml when the page content changes. -->
+      <p>Last updated: <time datetime="2026-11-10">November 10, 2026</time></p>
+    </footer>
+  </main>
 </body>
 </html>
